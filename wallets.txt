@@ -1,0 +1,2 @@
+wallet1,http://username:password@ip1:host
+wallet2,http://username:password@ip2:host
