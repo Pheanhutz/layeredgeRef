@@ -1,4 +1,9 @@
-## 1. Node 18
+## 1. Clone Repo
+```
+git clone https://github.com/Pheanhutz/layeredgeRef.git
+cd layeredgeRef
+```
+
 ## 2. Install the library
 ```
 npm i utils-phuonghv
