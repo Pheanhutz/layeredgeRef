@@ -1,13 +1,20 @@
-## 1. Môi trường: node 18
-##  2. Cài đặt thư viện (thư viện này của mình viết, đã public code trên npmjs https://www.npmjs.com/package/utils-phuonghv?activeTab=code)
+## 1. Node 18
+## 2. Install the library
 ```
 npm i utils-phuonghv
 ```
-##  3. Sửa refCode trong file layeredge.js
-##  4. Thêm data vào file wallets.txt dạng wallet,proxy 
-(Proxy dạng: http://username:password@ip:host)
+##  3. Edit refCode in layeredge.js file
+```
+nano layeredge.js
+```
+##  4. Add data to wallets.txt file as wallet,proxy
+(Proxy Format: http://username:password@ip:host)
+(wallets.txt format: 0xYOURWALLEtADDRESS,http://username:password@ip:host)
 
-##  5. Chạy file
+```
+nano wallets.txt
+```
+##  5. Run the file
 ```
 node layeredge.js
 ```
